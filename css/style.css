@@ -2,6 +2,8 @@
 	margin : 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
 }
 
 .header{
@@ -9,4 +11,21 @@
 	height: 100vh;
 	background-size: cover;
 	background-position: top;
+}
+.nav-bar{
+	display: flex;
+  list-style : none;
+  background : linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0));
+}
+
+.nav-bar li {
+  flex: 1;
+  padding : 10px;
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: border-bottom 0.4s;
+}
+.nav-bar li:hover{
+	border-bottom: 1px solid #fff;
 }
