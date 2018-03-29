@@ -3,13 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	color: #fff;
 }
 
 .header{
 	background: linear-gradient(to right, rgba(32,45,58,0.9) 0%,rgba(56,79,102,0.9) 100%),url("back.jpg");
 	height: 100vh;
 	background-size: cover;
+	color: #fff;
 	background-position: top;
 }
 .nav-bar{
@@ -28,4 +28,12 @@
 }
 .nav-bar li:hover{
 	border-bottom: 1px solid #fff;
+}
+.about-us{
+	color: #000!important;
+}
+h1{
+	font-weight: 400;
+	font-size: 40px;
+	text-transform: uppercase;
 }
